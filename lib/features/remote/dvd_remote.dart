@@ -48,7 +48,7 @@ class DvdRemoteScreen extends ConsumerWidget {
                   // label: 'PWR',
                   icon: Icons.power_settings_new,
                   size: 64,
-                  color: Color(Colors.red.value),
+                  color: Colors.red,
                   onPressed: has(Btn.power) ? () => _send(ref, Btn.power, context) : null,
                 ),
                 RemoteButton(

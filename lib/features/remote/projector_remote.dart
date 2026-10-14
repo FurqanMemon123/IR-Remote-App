@@ -31,7 +31,6 @@ class ProjectorRemoteScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final cs = Theme.of(context).colorScheme;
     final codeSet = _codeSet(ref);
 
     return Scaffold(
@@ -47,7 +46,7 @@ class ProjectorRemoteScreen extends ConsumerWidget {
                   // label: 'PWR',
                   icon: Icons.power_settings_new,
                   size: 72,
-                  color: Color(Colors.red.value),
+                  color: Colors.red,
                   onPressed: codeSet?.buttons.containsKey(Btn.power) == true
                       ? () => _send(ref, Btn.power, context)
                       : null,
