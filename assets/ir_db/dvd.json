@@ -1,0 +1,206 @@
+{
+  "type": "dvd",
+  "brands": [
+    {
+      "name": "Sony",
+      "codeSets": [
+        {
+          "id": "sony_dvd_1",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x10","command":"0x45"},
+            "play":  {"type":"nec","address":"0x10","command":"0x46"},
+            "pause": {"type":"nec","address":"0x10","command":"0x47"},
+            "stop":  {"type":"nec","address":"0x10","command":"0x48"},
+            "next":  {"type":"nec","address":"0x10","command":"0x49"},
+            "prev":  {"type":"nec","address":"0x10","command":"0x4A"},
+            "ff":    {"type":"nec","address":"0x10","command":"0x4B"},
+            "rew":   {"type":"nec","address":"0x10","command":"0x4C"},
+            "menu":  {"type":"nec","address":"0x10","command":"0x4D"},
+            "ok":    {"type":"nec","address":"0x10","command":"0x4E"},
+            "up":    {"type":"nec","address":"0x10","command":"0x4F"},
+            "down":  {"type":"nec","address":"0x10","command":"0x50"},
+            "left":  {"type":"nec","address":"0x10","command":"0x51"},
+            "right": {"type":"nec","address":"0x10","command":"0x52"},
+            "eject": {"type":"nec","address":"0x10","command":"0x53"},
+            "0":     {"type":"nec","address":"0x10","command":"0x60"},
+            "1":     {"type":"nec","address":"0x10","command":"0x61"},
+            "2":     {"type":"nec","address":"0x10","command":"0x62"},
+            "3":     {"type":"nec","address":"0x10","command":"0x63"},
+            "4":     {"type":"nec","address":"0x10","command":"0x64"},
+            "5":     {"type":"nec","address":"0x10","command":"0x65"},
+            "6":     {"type":"nec","address":"0x10","command":"0x66"},
+            "7":     {"type":"nec","address":"0x10","command":"0x67"},
+            "8":     {"type":"nec","address":"0x10","command":"0x68"},
+            "9":     {"type":"nec","address":"0x10","command":"0x69"}
+          }
+        },
+        {
+          "id": "sony_dvd_2",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x10","command":"0x75"},
+            "play":  {"type":"nec","address":"0x10","command":"0x76"},
+            "pause": {"type":"nec","address":"0x10","command":"0x77"},
+            "stop":  {"type":"nec","address":"0x10","command":"0x78"},
+            "next":  {"type":"nec","address":"0x10","command":"0x79"},
+            "prev":  {"type":"nec","address":"0x10","command":"0x7A"},
+            "ff":    {"type":"nec","address":"0x10","command":"0x7B"},
+            "rew":   {"type":"nec","address":"0x10","command":"0x7C"},
+            "menu":  {"type":"nec","address":"0x10","command":"0x7D"},
+            "ok":    {"type":"nec","address":"0x10","command":"0x7E"},
+            "up":    {"type":"nec","address":"0x10","command":"0x80"},
+            "down":  {"type":"nec","address":"0x10","command":"0x81"},
+            "left":  {"type":"nec","address":"0x10","command":"0x82"},
+            "right": {"type":"nec","address":"0x10","command":"0x83"},
+            "eject": {"type":"nec","address":"0x10","command":"0x84"},
+            "0":     {"type":"nec","address":"0x10","command":"0x90"},
+            "1":     {"type":"nec","address":"0x10","command":"0x91"},
+            "2":     {"type":"nec","address":"0x10","command":"0x92"},
+            "3":     {"type":"nec","address":"0x10","command":"0x93"},
+            "4":     {"type":"nec","address":"0x10","command":"0x94"},
+            "5":     {"type":"nec","address":"0x10","command":"0x95"},
+            "6":     {"type":"nec","address":"0x10","command":"0x96"},
+            "7":     {"type":"nec","address":"0x10","command":"0x97"},
+            "8":     {"type":"nec","address":"0x10","command":"0x98"},
+            "9":     {"type":"nec","address":"0x10","command":"0x99"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Panasonic",
+      "codeSets": [
+        {
+          "id": "panasonic_dvd_1",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x11","command":"0x45"},
+            "play":  {"type":"nec","address":"0x11","command":"0x46"},
+            "pause": {"type":"nec","address":"0x11","command":"0x47"},
+            "stop":  {"type":"nec","address":"0x11","command":"0x48"},
+            "next":  {"type":"nec","address":"0x11","command":"0x49"},
+            "prev":  {"type":"nec","address":"0x11","command":"0x4A"},
+            "ff":    {"type":"nec","address":"0x11","command":"0x4B"},
+            "rew":   {"type":"nec","address":"0x11","command":"0x4C"},
+            "menu":  {"type":"nec","address":"0x11","command":"0x4D"},
+            "ok":    {"type":"nec","address":"0x11","command":"0x4E"},
+            "up":    {"type":"nec","address":"0x11","command":"0x4F"},
+            "down":  {"type":"nec","address":"0x11","command":"0x50"},
+            "left":  {"type":"nec","address":"0x11","command":"0x51"},
+            "right": {"type":"nec","address":"0x11","command":"0x52"},
+            "eject": {"type":"nec","address":"0x11","command":"0x53"},
+            "0":     {"type":"nec","address":"0x11","command":"0x60"},
+            "1":     {"type":"nec","address":"0x11","command":"0x61"},
+            "2":     {"type":"nec","address":"0x11","command":"0x62"},
+            "3":     {"type":"nec","address":"0x11","command":"0x63"},
+            "4":     {"type":"nec","address":"0x11","command":"0x64"},
+            "5":     {"type":"nec","address":"0x11","command":"0x65"},
+            "6":     {"type":"nec","address":"0x11","command":"0x66"},
+            "7":     {"type":"nec","address":"0x11","command":"0x67"},
+            "8":     {"type":"nec","address":"0x11","command":"0x68"},
+            "9":     {"type":"nec","address":"0x11","command":"0x69"}
+          }
+        },
+        {
+          "id": "panasonic_dvd_2",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x11","command":"0x75"},
+            "play":  {"type":"nec","address":"0x11","command":"0x76"},
+            "pause": {"type":"nec","address":"0x11","command":"0x77"},
+            "stop":  {"type":"nec","address":"0x11","command":"0x78"},
+            "next":  {"type":"nec","address":"0x11","command":"0x79"},
+            "prev":  {"type":"nec","address":"0x11","command":"0x7A"},
+            "ff":    {"type":"nec","address":"0x11","command":"0x7B"},
+            "rew":   {"type":"nec","address":"0x11","command":"0x7C"},
+            "menu":  {"type":"nec","address":"0x11","command":"0x7D"},
+            "ok":    {"type":"nec","address":"0x11","command":"0x7E"},
+            "up":    {"type":"nec","address":"0x11","command":"0x80"},
+            "down":  {"type":"nec","address":"0x11","command":"0x81"},
+            "left":  {"type":"nec","address":"0x11","command":"0x82"},
+            "right": {"type":"nec","address":"0x11","command":"0x83"},
+            "eject": {"type":"nec","address":"0x11","command":"0x84"},
+            "0":     {"type":"nec","address":"0x11","command":"0x90"},
+            "1":     {"type":"nec","address":"0x11","command":"0x91"},
+            "2":     {"type":"nec","address":"0x11","command":"0x92"},
+            "3":     {"type":"nec","address":"0x11","command":"0x93"},
+            "4":     {"type":"nec","address":"0x11","command":"0x94"},
+            "5":     {"type":"nec","address":"0x11","command":"0x95"},
+            "6":     {"type":"nec","address":"0x11","command":"0x96"},
+            "7":     {"type":"nec","address":"0x11","command":"0x97"},
+            "8":     {"type":"nec","address":"0x11","command":"0x98"},
+            "9":     {"type":"nec","address":"0x11","command":"0x99"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Samsung",
+      "codeSets": [
+        {
+          "id": "samsung_dvd_1",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x12","command":"0x45"},
+            "play":  {"type":"nec","address":"0x12","command":"0x46"},
+            "pause": {"type":"nec","address":"0x12","command":"0x47"},
+            "stop":  {"type":"nec","address":"0x12","command":"0x48"},
+            "next":  {"type":"nec","address":"0x12","command":"0x49"},
+            "prev":  {"type":"nec","address":"0x12","command":"0x4A"},
+            "ff":    {"type":"nec","address":"0x12","command":"0x4B"},
+            "rew":   {"type":"nec","address":"0x12","command":"0x4C"},
+            "menu":  {"type":"nec","address":"0x12","command":"0x4D"},
+            "ok":    {"type":"nec","address":"0x12","command":"0x4E"},
+            "up":    {"type":"nec","address":"0x12","command":"0x4F"},
+            "down":  {"type":"nec","address":"0x12","command":"0x50"},
+            "left":  {"type":"nec","address":"0x12","command":"0x51"},
+            "right": {"type":"nec","address":"0x12","command":"0x52"},
+            "eject": {"type":"nec","address":"0x12","command":"0x53"},
+            "0":     {"type":"nec","address":"0x12","command":"0x60"},
+            "1":     {"type":"nec","address":"0x12","command":"0x61"},
+            "2":     {"type":"nec","address":"0x12","command":"0x62"},
+            "3":     {"type":"nec","address":"0x12","command":"0x63"},
+            "4":     {"type":"nec","address":"0x12","command":"0x64"},
+            "5":     {"type":"nec","address":"0x12","command":"0x65"},
+            "6":     {"type":"nec","address":"0x12","command":"0x66"},
+            "7":     {"type":"nec","address":"0x12","command":"0x67"},
+            "8":     {"type":"nec","address":"0x12","command":"0x68"},
+            "9":     {"type":"nec","address":"0x12","command":"0x69"}
+          }
+        },
+        {
+          "id": "samsung_dvd_2",
+          "sample": true,
+          "buttons": {
+            "power": {"type":"nec","address":"0x12","command":"0x75"},
+            "play":  {"type":"nec","address":"0x12","command":"0x76"},
+            "pause": {"type":"nec","address":"0x12","command":"0x77"},
+            "stop":  {"type":"nec","address":"0x12","command":"0x78"},
+            "next":  {"type":"nec","address":"0x12","command":"0x79"},
+            "prev":  {"type":"nec","address":"0x12","command":"0x7A"},
+            "ff":    {"type":"nec","address":"0x12","command":"0x7B"},
+            "rew":   {"type":"nec","address":"0x12","command":"0x7C"},
+            "menu":  {"type":"nec","address":"0x12","command":"0x7D"},
+            "ok":    {"type":"nec","address":"0x12","command":"0x7E"},
+            "up":    {"type":"nec","address":"0x12","command":"0x80"},
+            "down":  {"type":"nec","address":"0x12","command":"0x81"},
+            "left":  {"type":"nec","address":"0x12","command":"0x82"},
+            "right": {"type":"nec","address":"0x12","command":"0x83"},
+            "eject": {"type":"nec","address":"0x12","command":"0x84"},
+            "0":     {"type":"nec","address":"0x12","command":"0x90"},
+            "1":     {"type":"nec","address":"0x12","command":"0x91"},
+            "2":     {"type":"nec","address":"0x12","command":"0x92"},
+            "3":     {"type":"nec","address":"0x12","command":"0x93"},
+            "4":     {"type":"nec","address":"0x12","command":"0x94"},
+            "5":     {"type":"nec","address":"0x12","command":"0x95"},
+            "6":     {"type":"nec","address":"0x12","command":"0x96"},
+            "7":     {"type":"nec","address":"0x12","command":"0x97"},
+            "8":     {"type":"nec","address":"0x12","command":"0x98"},
+            "9":     {"type":"nec","address":"0x12","command":"0x99"}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "type": "projector",
+  "brands": [
+    {
+      "name": "Epson",
+      "codeSets": [
+        {
+          "id": "epson_proj_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x32","command":"0x02"},
+            "vol_up":  {"type":"nec","address":"0x32","command":"0x14"},
+            "vol_down":{"type":"nec","address":"0x32","command":"0x15"},
+            "mute":    {"type":"nec","address":"0x32","command":"0x09"},
+            "source":  {"type":"nec","address":"0x32","command":"0x0A"},
+            "menu":    {"type":"nec","address":"0x32","command":"0x0B"},
+            "up":      {"type":"nec","address":"0x32","command":"0x0C"},
+            "down":    {"type":"nec","address":"0x32","command":"0x0D"},
+            "left":    {"type":"nec","address":"0x32","command":"0x0E"},
+            "right":   {"type":"nec","address":"0x32","command":"0x0F"},
+            "ok":      {"type":"nec","address":"0x32","command":"0x10"},
+            "back":    {"type":"nec","address":"0x32","command":"0x11"}
+          }
+        },
+        {
+          "id": "epson_proj_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x32","command":"0x22"},
+            "vol_up":  {"type":"nec","address":"0x32","command":"0x34"},
+            "vol_down":{"type":"nec","address":"0x32","command":"0x35"},
+            "mute":    {"type":"nec","address":"0x32","command":"0x29"},
+            "source":  {"type":"nec","address":"0x32","command":"0x2A"},
+            "menu":    {"type":"nec","address":"0x32","command":"0x2B"},
+            "up":      {"type":"nec","address":"0x32","command":"0x2C"},
+            "down":    {"type":"nec","address":"0x32","command":"0x2D"},
+            "left":    {"type":"nec","address":"0x32","command":"0x2E"},
+            "right":   {"type":"nec","address":"0x32","command":"0x2F"},
+            "ok":      {"type":"nec","address":"0x32","command":"0x30"},
+            "back":    {"type":"nec","address":"0x32","command":"0x31"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "BenQ",
+      "codeSets": [
+        {
+          "id": "benq_proj_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x33","command":"0x02"},
+            "vol_up":  {"type":"nec","address":"0x33","command":"0x14"},
+            "vol_down":{"type":"nec","address":"0x33","command":"0x15"},
+            "mute":    {"type":"nec","address":"0x33","command":"0x09"},
+            "source":  {"type":"nec","address":"0x33","command":"0x0A"},
+            "menu":    {"type":"nec","address":"0x33","command":"0x0B"},
+            "up":      {"type":"nec","address":"0x33","command":"0x0C"},
+            "down":    {"type":"nec","address":"0x33","command":"0x0D"},
+            "left":    {"type":"nec","address":"0x33","command":"0x0E"},
+            "right":   {"type":"nec","address":"0x33","command":"0x0F"},
+            "ok":      {"type":"nec","address":"0x33","command":"0x10"},
+            "back":    {"type":"nec","address":"0x33","command":"0x11"}
+          }
+        },
+        {
+          "id": "benq_proj_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x33","command":"0x22"},
+            "vol_up":  {"type":"nec","address":"0x33","command":"0x34"},
+            "vol_down":{"type":"nec","address":"0x33","command":"0x35"},
+            "mute":    {"type":"nec","address":"0x33","command":"0x29"},
+            "source":  {"type":"nec","address":"0x33","command":"0x2A"},
+            "menu":    {"type":"nec","address":"0x33","command":"0x2B"},
+            "up":      {"type":"nec","address":"0x33","command":"0x2C"},
+            "down":    {"type":"nec","address":"0x33","command":"0x2D"},
+            "left":    {"type":"nec","address":"0x33","command":"0x2E"},
+            "right":   {"type":"nec","address":"0x33","command":"0x2F"},
+            "ok":      {"type":"nec","address":"0x33","command":"0x30"},
+            "back":    {"type":"nec","address":"0x33","command":"0x31"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Optoma",
+      "codeSets": [
+        {
+          "id": "optoma_proj_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x34","command":"0x02"},
+            "vol_up":  {"type":"nec","address":"0x34","command":"0x14"},
+            "vol_down":{"type":"nec","address":"0x34","command":"0x15"},
+            "mute":    {"type":"nec","address":"0x34","command":"0x09"},
+            "source":  {"type":"nec","address":"0x34","command":"0x0A"},
+            "menu":    {"type":"nec","address":"0x34","command":"0x0B"},
+            "up":      {"type":"nec","address":"0x34","command":"0x0C"},
+            "down":    {"type":"nec","address":"0x34","command":"0x0D"},
+            "left":    {"type":"nec","address":"0x34","command":"0x0E"},
+            "right":   {"type":"nec","address":"0x34","command":"0x0F"},
+            "ok":      {"type":"nec","address":"0x34","command":"0x10"},
+            "back":    {"type":"nec","address":"0x34","command":"0x11"}
+          }
+        },
+        {
+          "id": "optoma_proj_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x34","command":"0x22"},
+            "vol_up":  {"type":"nec","address":"0x34","command":"0x34"},
+            "vol_down":{"type":"nec","address":"0x34","command":"0x35"},
+            "mute":    {"type":"nec","address":"0x34","command":"0x29"},
+            "source":  {"type":"nec","address":"0x34","command":"0x2A"},
+            "menu":    {"type":"nec","address":"0x34","command":"0x2B"},
+            "up":      {"type":"nec","address":"0x34","command":"0x2C"},
+            "down":    {"type":"nec","address":"0x34","command":"0x2D"},
+            "left":    {"type":"nec","address":"0x34","command":"0x2E"},
+            "right":   {"type":"nec","address":"0x34","command":"0x2F"},
+            "ok":      {"type":"nec","address":"0x34","command":"0x30"},
+            "back":    {"type":"nec","address":"0x34","command":"0x31"}
+          }
+        }
+      ]
+    }
+  ]
+}

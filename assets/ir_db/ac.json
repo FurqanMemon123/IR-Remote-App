@@ -1,0 +1,92 @@
+{
+  "type": "ac",
+  "brands": [
+    {
+      "name": "Samsung",
+      "codeSets": [
+        {
+          "id": "samsung_ac_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x01","command":"0x00"},
+            "temp_up":  {"type":"nec","address":"0x01","command":"0x01"},
+            "temp_down":{"type":"nec","address":"0x01","command":"0x02"},
+            "mode":     {"type":"nec","address":"0x01","command":"0x03"},
+            "fan":      {"type":"nec","address":"0x01","command":"0x04"},
+            "swing":    {"type":"nec","address":"0x01","command":"0x05"}
+          }
+        },
+        {
+          "id": "samsung_ac_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x01","command":"0x10"},
+            "temp_up":  {"type":"nec","address":"0x01","command":"0x11"},
+            "temp_down":{"type":"nec","address":"0x01","command":"0x12"},
+            "mode":     {"type":"nec","address":"0x01","command":"0x13"},
+            "fan":      {"type":"nec","address":"0x01","command":"0x14"},
+            "swing":    {"type":"nec","address":"0x01","command":"0x15"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "LG",
+      "codeSets": [
+        {
+          "id": "lg_ac_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x02","command":"0x00"},
+            "temp_up":  {"type":"nec","address":"0x02","command":"0x01"},
+            "temp_down":{"type":"nec","address":"0x02","command":"0x02"},
+            "mode":     {"type":"nec","address":"0x02","command":"0x03"},
+            "fan":      {"type":"nec","address":"0x02","command":"0x04"},
+            "swing":    {"type":"nec","address":"0x02","command":"0x05"}
+          }
+        },
+        {
+          "id": "lg_ac_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x02","command":"0x10"},
+            "temp_up":  {"type":"nec","address":"0x02","command":"0x11"},
+            "temp_down":{"type":"nec","address":"0x02","command":"0x12"},
+            "mode":     {"type":"nec","address":"0x02","command":"0x13"},
+            "fan":      {"type":"nec","address":"0x02","command":"0x14"},
+            "swing":    {"type":"nec","address":"0x02","command":"0x15"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Daikin",
+      "codeSets": [
+        {
+          "id": "daikin_ac_1",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x03","command":"0x00"},
+            "temp_up":  {"type":"nec","address":"0x03","command":"0x01"},
+            "temp_down":{"type":"nec","address":"0x03","command":"0x02"},
+            "mode":     {"type":"nec","address":"0x03","command":"0x03"},
+            "fan":      {"type":"nec","address":"0x03","command":"0x04"},
+            "swing":    {"type":"nec","address":"0x03","command":"0x05"}
+          }
+        },
+        {
+          "id": "daikin_ac_2",
+          "sample": true,
+          "buttons": {
+            "power":   {"type":"nec","address":"0x03","command":"0x10"},
+            "temp_up":  {"type":"nec","address":"0x03","command":"0x11"},
+            "temp_down":{"type":"nec","address":"0x03","command":"0x12"},
+            "mode":     {"type":"nec","address":"0x03","command":"0x13"},
+            "fan":      {"type":"nec","address":"0x03","command":"0x14"},
+            "swing":    {"type":"nec","address":"0x03","command":"0x15"}
+          }
+        }
+      ]
+    }
+  ]
+}
